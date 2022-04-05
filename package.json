@@ -1,0 +1,19 @@
+{
+  "name": "get-testimonials",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:martanara/get-testimonials.git",
+  "author": "Marta Nara <marta.kos1230@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "bootstrap": "^5.1.3",
+    "cors": "^2.8.5",
+    "express": "4.17.1",
+    "nodemon": "^2.0.15"
+  },
+  "build": "cd client && yarn install && yarn build",
+  "scripts": {
+    "start": "npx nodemon server.js"
+  }
+}
